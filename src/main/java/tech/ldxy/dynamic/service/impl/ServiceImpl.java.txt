@@ -1,0 +1,15 @@
+package tech.ldxy.dynamic.service.impl;
+
+import tech.ldxy.dynamic.service.Service;
+
+public class ServiceImpl implements Service {
+
+	public void start() {
+		System.out.println("--- 开启服务 ---");
+	}
+
+	public void stop() {
+		System.out.println("--- 停止服务 ---");
+	}
+	
+}
